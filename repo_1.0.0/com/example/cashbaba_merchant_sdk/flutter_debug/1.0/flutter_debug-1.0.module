@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.example.cashbaba_merchant_sdk",
+    "module": "flutter_debug",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugVariantDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.camera",
+          "module": "camera_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.mr.flutter.plugin.filepicker",
+          "module": "file_picker_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google_mlkit_commons",
+          "module": "google_mlkit_commons_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google_mlkit_face_detection",
+          "module": "google_mlkit_face_detection_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 21527739,
+          "sha512": "df597995ac94183f0da6e38e1540152188fcb84f661f60168ff1ce914b6d44dd9bf99a00b0b6828067e499f6cdef73aef7fe456d0f5387e23f5e2d0838204f26",
+          "sha256": "cf4dd9aacf95e00a14322610f02f445d2825043fe4cafc1cf203875fedcf4236",
+          "sha1": "68b3a928430e09481e03e49eaf2359c7b6c8f99a",
+          "md5": "8785e6ccbe5528aef8d18cabeb63c3e9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.flutter",
+          "module": "flutter_embedding_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "armeabi_v7a_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "arm64_v8a_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_64_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter",
+          "module": "x86_debug",
+          "version": {
+            "requires": "1.0.0-36335019a8eab588c3c2ea783c618d90505be233"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.camera",
+          "module": "camera_android_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.mr.flutter.plugin.filepicker",
+          "module": "file_picker_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "io.flutter.plugins.flutter_plugin_android_lifecycle",
+          "module": "flutter_plugin_android_lifecycle_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google_mlkit_commons",
+          "module": "google_mlkit_commons_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.google_mlkit_face_detection",
+          "module": "google_mlkit_face_detection_debug",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flutter_debug-1.0.aar",
+          "url": "flutter_debug-1.0.aar",
+          "size": 21527739,
+          "sha512": "df597995ac94183f0da6e38e1540152188fcb84f661f60168ff1ce914b6d44dd9bf99a00b0b6828067e499f6cdef73aef7fe456d0f5387e23f5e2d0838204f26",
+          "sha256": "cf4dd9aacf95e00a14322610f02f445d2825043fe4cafc1cf203875fedcf4236",
+          "sha1": "68b3a928430e09481e03e49eaf2359c7b6c8f99a",
+          "md5": "8785e6ccbe5528aef8d18cabeb63c3e9"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_debug-1.0-sources.jar",
+          "url": "flutter_debug-1.0-sources.jar",
+          "size": 1960,
+          "sha512": "0fab0097faeceed1b9f50c03fd6f68e939d2461e3c4e8825f204d8b5598e64491dd20b3403a2cff629f27a68f9d579803dc458feee8f7b01221d2c749384adf6",
+          "sha256": "9ba53f8d0f107132004b9bc7ff7cc06e688d618cd25edaf9617fb626d996de03",
+          "sha1": "bc57bba9ffa9e5137d5221c54d1c71bcf01c1d05",
+          "md5": "ac5a93c82f8571ebc3c3095445becbd8"
+        }
+      ]
+    },
+    {
+      "name": "debugVariantDebugJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "flutter_debug-1.0-javadoc.jar",
+          "url": "flutter_debug-1.0-javadoc.jar",
+          "size": 269467,
+          "sha512": "ade6303b2088bd3ee9098969f4cd3ba59c40c3a7d4abd239cbbd6b37b306871835aec01f73f2d33425ce0b5117927660da72609f795a20639c994b482d5dd482",
+          "sha256": "f8076c8f1e3fb773ed330c3b441d1579fde505892fca47b32e295552660ea543",
+          "sha1": "34c62f69749a47ec2035007859fc27b140975b1d",
+          "md5": "a1d11622b4a5057875a2b717dfeb237b"
+        }
+      ]
+    }
+  ]
+}
